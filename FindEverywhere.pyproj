@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3473a017-8fb2-4710-9691-11632742c469</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FindEverywhere.py</StartupFile>
+    <StartupFile>module_7_3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FindEverywhere.py" />
+    <Compile Include="module_7_3.py" />
+    <Compile Include="WordsFinder.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mother Goose - Monday’s Child.txt" />
+    <Content Include="Rudyard Kipling - If.txt" />
+    <Content Include="test_file.txt" />
+    <Content Include="Walt Whitman - O Captain! My Captain!.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
